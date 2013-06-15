@@ -18,11 +18,12 @@ She works for a development shop that does not have in-house user interface desi
 
 * Code samples that are quick to understand
 * Code samples that follow industry best practice
-* Has a repository that allows contributions
+* A repository that allows contributions
 
 ## Goals
 
-* Quick implementation of code
+* Implement user interface code quickly
+* Pass acceptance testing for interactive user interface elements
 * Understand design patterns
 
 ## Frustrations
