@@ -1,15 +1,21 @@
 {
   "name": "UI_Patterns",
   "version": "0.0.1",
-  "description": "",
+  "description": "Implementing User Interface Design Patterns for designers and developers.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": "",
+  "repository": { 
+    "type" : "git",
+    "url" : "http://github.com/pwcberry/UI_Patterns.git"
+  },
   "keywords": [
     "design",
-    "patterns"
+    "patterns",
+    "html",
+    "css",
+    "JavaScript"
   ],
   "author": "Peter Berry",
   "license": "BSD"
