@@ -10,7 +10,7 @@ Primary Persona (Provisional)
 
 <p class="tag-line">Less key strokes, the better.</p>
 
-Victoria has been working as a software developer for 3 years, since graduating from university. Whilst at university she had some interest in user interfaces, and has continued to pursue that interest by reading blogs and magazine sites on the internet.
+Victoria has been working as a software developer for 3 years since graduating from university. Whilst at university she had some interest in user interfaces, and has continued to pursue that interest by reading blogs and magazine sites on the internet.
 
 She works for a development shop that does not have in-house user interface designers, and often the role of fashioning the look and feel for a web page falls on the responsiblity of the developer. She understands the overall principle of design patterns, but does not know how best to implement them in code. She believes in coding to web standards.
 

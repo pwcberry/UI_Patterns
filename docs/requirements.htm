@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>UI Patterns in Code</title>
+        <style>
+            body {font-family: Arial;font-size: 1em;color: #333;}
+            .page-wrapper {padding: 20px;margin: 0 auto;}
+            h1 {font-size: 2em;color: #0094ff;}
+            h2 {font-size: 1.5em; color: #0094ff; border-bottom: 1px solid #c9def9; border-left: 1px solid #c9def9; padding-left: 0.67em;}
+            th {text-align: left;}
+            table.summary th, td {padding: 0.33em 0.5em; color: #333;}
+            .tag-line {margin:1em 0; font-size: 1.33em; font-style: italic;color: #339;}
+            
+            /* These media queries are arbitrary, defined while testing with browser/editor side-by-side*/   
+            @media only screen and (min-width:800px) {
+                .page-wrapper {width: 760px;}
+            }
+            @media only screen and (min-width:1024) {
+                .page-wrapper {width: 940px;}
+            }
+        </style>
+    </head>
+    <body>
+        <div class="page-wrapper">
+        <h1>Requirements Definition</h1>
+<h2>Problem Statement</h2>
+<p>Many developers or designers who do not have experience coding for the user interface are unaware of how user interface design patterns can be coded using web standards. This leads to poor implementation of visual designs and unexpected behaviour for users, thereby more time is spent reworking the code.</p>
+<h2>Vision Statement</h2>
+<p>&quot;UI Patterns in Code&quot; will give coders confidence in understanding how design patterns accommodate interactive behaviours and to write code effectively so the application behaves as expected by the user, and as envisioned by the designer.</p>
+<h2>Persona Expectations</h2>
+<p>Victoria is a busy person, and relies on Google to provide answers to her coding problems. A web site that provides her with solutions for typical coding problems relating to user interface - specifically web pages - needs to be well organized, easily searchable, and contain concise code based on standards. </p>
+<p>Thomas is hands-on, and keeps his tools neatly arranged and easily accessible. While learning to code, he doesn&#39;t want to have to continually switch from his editor to the web page that contains the material he is learning. (Does this mean a responsive site, or the content is easy to learn?)</p>
+<h2>Context Scenarios</h2>
+<h3>&quot;Search for specific pattern&quot;</h3>
+<ol>
+<li><p>Victoria has begun work on a new project with a set of requirements that have been drawn up by the office&#39;s only business analyst. He has sketched only a small number of screens that have been described by the client.</p>
+</li>
+<li><p>After reading through the requirements, and discussing the screens with the business analyst, Victoria has a clearer understanding for the form of the software, and what interactions are required.</p>
+</li>
+<li><p>In the sketches, she recognizes that there are many elements to that page, but she recognizes some of the page as having an accordion, and the tabs of a card stack. These are patterns she&#39;s unsure of coding.</p>
+</li>
+<li><p>Victoria clicks the favourite link she has for &quot;UI Patterns in Code&quot;. On the home page she finds the link for &quot;accordion&quot; under the heading &quot;Page Layout&quot;.</p>
+</li>
+<li><p>On the page that explains the accordion, she copies the sample code and pastes it into her code editor and begins working on the styling. </p>
+</li>
+</ol>
+<h3>&quot;Browse pattern library&quot;</h3>
+<ol>
+<li><p>Thomas has almost finished the high-fidelity mock-ups for the checkout processing in an e-commerce web site. He has started to think about how the pages will be coded.</p>
+</li>
+<li><p>He visits &quot;UI Patterns in Code&quot; after typing the home address into the omnibox of his browser. When the page loads, he looks under heading &quot;Navigation&quot;. He clicks on the patterns for &quot;Pyramid&quot;, &quot;Sequence Map&quot; and &quot;Breadcrumbs&quot; to gain a feel for how these can be coded.</p>
+</li>
+</ol>
+<h3>&quot;Viewing a pattern code sample&quot;</h3>
+<ol>
+<li><p>While working on a page for her new web application project, Victoria realizes that one of the input methods requires validation and help text.</p>
+</li>
+<li><p>She finds the pages for the pattern &quot;Input Prompt&quot;.</p>
+</li>
+<li><p>On the page she sees the suggested styling, an explanation of the pattern, and the recommended HTML, CSS and JavaScript code for that pattern.</p>
+</li>
+</ol>
+<h2>Data Requirements</h2>
+<ul>
+<li>Pattern: name, code, description</li>
+<li>Pattern Group</li>
+</ul>
+<h2>Functional Requirements</h2>
+<ul>
+<li>Search for pattern</li>
+<li>Browse patterns</li>
+<li>Copy code</li>
+<li>Explore implmentation for explanation</li>
+</ul>
+<h2>Interaction Framework</h2>
+<h3>Posture</h3>
+<p>The web application will behave similarly to a <em>Sovereign Posture</em>, in that while the user is comprehending the content, the user interface will command their attention.</p>
+<h3>Data Elements</h3>
+<p><strong>Pattern</strong>:</p>
+<ul>
+<li>Name</li>
+<li>Description</li>
+<li>When To Use</li>
+<li>Code<ul>
+<li>HTML</li>
+<li>CSS</li>
+<li>JavaScript</li>
+</ul>
+</li>
+</ul>
+<h3>Functional Elements</h3>
+<ul>
+<li>Home Page displays groups of patterns with links to each pattern</li>
+<li>Home Page displays search field with button</li>
+<li>Pattern page contains relevant interactivity for the pattern on display</li>
+</ul>
+<h2>Key Path Scenarios</h2>
+<p>&quot;Search for &#39;Action Panel&#39;&quot;</p>
+<ul>
+<li>View the Home page</li>
+<li>In the search field, type &quot;Action Panel&quot;</li>
+<li>Click &quot;Search&quot; button</li>
+<li>Page with matching results appears</li>
+<li>Click title &quot;Action Panel&quot;</li>
+<li>Action Panel pattern page appears</li>
+</ul>
+<p>&quot;Browse to &#39;Infinite List&#39;&quot;</p>
+<ul>
+<li>View the Home page</li>
+<li>Under the &quot;Mobile Patterns&quot; heading, click &quot;Infinite List&quot;</li>
+<li>Infinite List pattern page appears</li>
+</ul>
+
+        </div>
+    </body>
+</html>
