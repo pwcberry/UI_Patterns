@@ -17,6 +17,7 @@
     "css",
     "JavaScript"
   ],
+  "dependencies":{},
   "author": "Peter Berry",
   "license": "BSD"
 }
