@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Input Hints | Forms and Controls | UI Patterns in Code</title>
+	<script src="scripts/prefixfree.min.js"></script>
+	<link href="styles/core.css" type="text/css" rel="stylesheet"/>
+	<link href="styles/prism.css" type="text/css" rel="stylesheet"/>
+	<style id="Pattern-Style">
+		.input-group {
+			width:100%;
+			box-sizing:border-box;
+		}
+	</style>
+</head>
+<body>
+	<div class="page-header-wrapper">
+		<header>
+			<h1>UI Patterns in Code</h1>
+		</header>
+	</div>
+	<div class="page-content-wrapper">
+	<article class="page-content">
+		<header class="page-header">
+			<h2>Input Hints</h2>
+			<nav class="breadcrumb"><ol><li><a href="index.htm">Patterns</a></li><li><a href="forms-controls.htm">Forms &amp; Controls</a></li></ol></nav>
+		</header>
+		<article class="page-body">
+			<section class="section-execution">
+				<h3>Visual Sample</h3>
+				<article class="body pattern-example">
+					<div class="form-row input-group"><p>Full name</p><input type="text" />
+						<span class="input-hint">Your full name will appear on your public profile</span>
+					</div>
+					<div class="form-row input-group">
+						<p>Username</p>
+						<input type="text" />
+						<span class="input-hint">You public profile: http://somedomain.com/<strong>USERNAME</strong></span>
+					</div>
+				</article>
+			</section>
+			<section class="section-code">
+				<h3>Code</h3>
+				<div class="body">
+					<div class="tab-header">
+					<ol class="tabs"><li data-code="HTML">HTML</li><li data-code="CSS">CSS</li><li data-code="JS">JS</li></ol>
+					<ol class="actions"><li data-action="select-all" title="select all">&nbsp;</li><li data-action="copy-code" title="copy code to clipboard">&nbsp;</li></ol>
+					</div>
+					<div class="tab-container">
+						<pre class="tab-panel language-html"><code class="language-html" id="Code-HTML"></code></pre>
+						<pre class="tab-panel language-css"><code class="language-css" id="Code-CSS"></code></pre>
+						<pre class="tab-panel language-javascript"><code class="language-javascript" id="Code-JavaScript"></code></pre>
+					</div>
+				</div>
+			</section>
+			<section class="description">
+				<h3>Description</h3>
+				<p>&nbsp;</p>
+				<p>&nbsp;</p>
+				<p>&nbsp;</p>
+			</section>
+		</article>
+		</div>
+	</div>
+	<div class="page-footer-wrapper">
+		<footer>
+
+		</footer>
+	</div>
+	<script src="scripts/core.js"></script>
+	<script id="Pattern-Script">
+	(function() {
+		for(var i = 0; i<10; i++){
+			console.log("Test");
+		}
+	}());		
+	</script>
+	<script src="scripts/pattern.js"></script>
+	<script src="scripts/prism.js"></script>
+</body>
+</html>

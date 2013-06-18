@@ -22,7 +22,7 @@ Thomas is hands-on, and keeps his tools neatly arranged and easily accessible. W
 Context Scenarios
 -----------------
 
-### "Search for specific pattern"
+### "Browse to a specific pattern"
 
 1. Victoria has begun work on a new project with a set of requirements that have been drawn up by the office's only business analyst. He has sketched only a small number of screens that have been described by the client.
 
@@ -51,7 +51,8 @@ Context Scenarios
 Data Requirements
 -----------------
 
-* Pattern: name, code, description
+* Screen: a functioning example combining patterns into a meaningful arrangement
+* Pattern: includes name, code, and description
 * Pattern Group
 
 Functional Requirements
@@ -85,7 +86,9 @@ __Pattern__:
 
 * Home Page displays groups of patterns with links to each pattern
 * Home Page displays search field with button
+* Home Page displays a group of links to Screens
 * Pattern page contains relevant interactivity for the pattern on display
+* Screen page contains pattern zones that respond to hover or tap to display a summary
 
 Key Path Scenarios
 ------------------
